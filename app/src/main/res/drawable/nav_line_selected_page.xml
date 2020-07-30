@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/_10sdp"
+        android:right="@dimen/_10sdp"
+        android:bottom="@dimen/_38sdp">
+        <shape android:shape="line">
+            <stroke android:width="@dimen/_5sdp" android:color="@color/notification_alert_bg_color"/>
+        </shape>
+    </item>
+</layer-list>

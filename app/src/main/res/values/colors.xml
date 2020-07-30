@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#9A0C0B</color>
+    <color name="colorAccent">#03DAC5</color>
+<!--    <color name="colorPrimaryDark">#3700B3</color>      -->
+
+
+    <!--    fragment_splash     -->
+    <color name="frag_splash_bg_color">#E9EAEC</color>
+    <color name="frag_splash_status_bar_color">#AB0C0A</color>
+    <!--    fragment_slider     -->
+    <color name="frag_slider_status_bar_color">#CBCBCA</color>  <!-- #CACBCD -->
+    <!--    item_slider     -->
+    <color name="item_slider_text_color">#743C63</color>
+    <!--    fragment_login     -->
+    <color name="frag_login_tv_register">#D5CDCB</color>
+    <!--    fragment_home     -->
+    <color name="frag_home_tl_selected_tab_line">#CACCCB</color>
+    <!--    Global  -->
+    <color name="white">#FFFFFF</color>
+    <color name="edit_text_bg_color">#E8E9EB</color>
+    <color name="red_text_color">#9B1311</color>
+    <color name="btn_bg_gray_color">#CACBCD</color>
+    <color name="notification_alert_bg_color">#CBD4D0</color>
+    <color name="notification_alert_color">#EB5109</color>
+    <!--  fragment_post  -->
+    <color name="fragment_post_ll_seperator">#F1F0ED</color>
+    <color name="fragment_post_fab_request_donation">#9A0C0B</color>
+    <!--    item_custom_post    -->
+    <color name="item_custom_post_title_bg">#892525</color>
+    <!--    item_custom_donation    -->
+    <color name="item_custom_donation_blood_type_bg">#C10100</color>
+    <!--    fragment_donation_location   -->
+    <color name="btn_bg_dark_red_color">#861A06</color>
+    <!--    fragment_more   -->
+    <color name="list_view_seperator_line_color">#F0F1F1</color>
+    <!--    fragment_contact_us     -->
+    <color name="fragment_contact_us_tv_static">#6F3534</color>
+
+    <!--    fragment_notifications      -->
+
+</resources>

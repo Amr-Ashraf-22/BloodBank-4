@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/fragment_notification_settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fragment_notification_settings_tool_bar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_notification_settings_toolbar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/fragment_notification_settings_ll_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:elevation="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/item_slider_tv_text"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_20sdp"
+                    android:textColor="@color/red_text_color"
+                    android:textSize="@dimen/_13sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/fragment_notification_settings_rl_blood_types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_notification_settings_ll_text"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/fragment_notification_settings_rl_blood_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_edit_text"
+                    android:paddingTop="@dimen/_35sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone"
+                    >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/fragment_notification_settings_rv_blood_types"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_orange_btn"
+                    >
+
+                    <ImageView
+                        android:id="@+id/fragment_notification_settings_img_v_blood_types"
+                        android:layout_width="14dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_white_plus" />
+
+                    <TextView
+                        android:id="@+id/fragment_notification_settings_tv_blood_types"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_notification_settings_tv_blood_types"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toEndOf="@+id/fragment_notification_settings_img_v_blood_types"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/fragment_notification_settings_rl_governorates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_notification_settings_rl_blood_types"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/fragment_notification_settings_rl_governorate_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_edit_text"
+                    android:paddingTop="@dimen/_35sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:visibility="gone"
+                    >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/fragment_notification_settings_rv_governorates"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_orange_btn"
+                    >
+
+                    <ImageView
+                        android:id="@+id/fragment_notification_settings_img_v_governorates"
+                        android:layout_width="14dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_white_plus" />
+
+                    <TextView
+                        android:id="@+id/fragment_notification_settings_tv_governorates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_notification_settings_tv_governorates"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toEndOf="@+id/fragment_notification_settings_img_v_governorates"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/fragment_notification_settings_btn_save"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fragment_notification_settings_rl_governorates"
+                android:text="@string/fragment_notification_settings_btn_save"
+                android:background="@drawable/round_orange_btn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

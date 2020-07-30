@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_cycle_bg"
+    android:layout_gravity="center_horizontal"
+    android:paddingEnd="@dimen/_20sdp"
+    android:paddingStart="@dimen/_20sdp">
+
+    <ImageView
+        android:id="@+id/fragment_reset_pass_i_v_logo"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:src="@drawable/white_logo" />
+
+
+    <EditText
+        android:id="@+id/fragment_reset_pass_et_code"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_reset_pass_i_v_logo"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:paddingBottom="@dimen/_7sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/frag_reset_pass_et_code"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/fragment_reset_pass_et_new_password"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_below="@+id/fragment_reset_pass_et_code"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:paddingBottom="@dimen/_7sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/frag_reset_pass_et_new_password"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/fragment_reset_pass_et_confirm_new_password"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_below="@+id/fragment_reset_pass_et_new_password"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:paddingBottom="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/frag_reset_pass_et_confirm_new_password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/fragment_forgot_pass_btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_reset_pass_et_confirm_new_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/frag_reset_pass_et_change"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        style="@style/btn_confirm"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+
+    <!--     fragment_login   -->
+    <string name="frag_login_et_phone">Phone</string>
+    <string name="frag_login_et_password">Password</string>
+    <string name="frag_login_chk_bx_remember_me">Remember Me</string>
+    <string name="frag_login_tv_forgot_pass">Forgot your password ?</string>
+    <string name="frag_login_btn_login">Login</string>
+    <string name="frag_login_tv_register">Don\'t have an Account? You can Register here</string>
+    <!-- Error -->
+    <string name="frag_login_et_empty_phone">Please enter your Phone</string>
+    <string name="frag_login_et_empty_password">Please enter your Password</string>
+
+    <!--     item_slider   -->
+    <string name="item_slider_tv_text">Lorem Epsom is a virtual template that is placed in the designs to be presented to the customer to allow him to imagine how to put the texts inside the designs, whether they are printed &#x2026; brochures or flyer designs for example &#x2026; or site models &#x2026;</string>
+
+    <!--     fragment_register   -->
+    <string name="frag_register_tool_bar">Create a New Account</string>
+    <string name="frag_register_et_name">Name</string>
+    <string name="frag_register_et_email">Email</string>
+    <string name="frag_register_et_birth_date">Date of Birth</string>
+    <string name="frag_register_sp_blood_type">Blood Type</string>
+    <string name="frag_register_et_last_donation">The Last Date for Donation</string>
+    <string name="frag_register_sp_governorate">Governorate</string>
+    <string name="frag_register_sp_city">City</string>
+    <string name="frag_register_phone">Phone Number</string>
+    <string name="frag_register_password">Password</string>
+    <string name="frag_register_confirm_password">Confirm Password</string>
+    <string name="frag_register_btn_register">Register</string>
+    <!-- Error -->
+    <string name="frag_register_et_empty_name">Please enter your Name</string>
+    <string name="frag_register_et_empty_email">Please enter your Email</string>
+    <string name="frag_register_et_empty_birth_date">Please enter your Date of Birth</string>
+    <string name="frag_register_sp_empty_blood_type">Please Choose your Blood Type</string>
+    <string name="frag_register_et_empty_last_donation">Please enter your Last Donation Date</string>
+    <string name="frag_register_sp_empty_governorate">Please Choose Governorate</string>
+    <string name="frag_register_sp_empty_city">Please Choose City</string>
+    <string name="frag_register_et_empty_phone">Please enter your Phone</string>
+    <string name="frag_register_et_empty_password">Please enter your Password</string>
+    <string name="frag_register_et_empty_confirm_password">Please Repeat your Password</string>
+    <string name="frag_register_password_not_match">Passwords are not equal</string>
+    <string name="frag_register_phone_not_valid">Phone Must be 11 Number</string>
+    <string name="frag_register_date_not_valid">Date Must be as this format yyyy-MM-dd</string>
+
+    <!--     fragment_forgot_pass   -->
+    <string name="frag_forgot_pass_btn_send">Send</string>
+    <string name="frag_forgot_pass_et_phone">Phone</string>
+    <!-- Error -->
+    <string name="frag_forgot_pass_et_empty_phone">Please enter your email</string>
+    <string name="frag_forgot_pass_et_phone_not_valid">Please enter a valid Phone Number</string>
+
+    <!--     fragment_reset_pass   -->
+    <string name="frag_reset_pass_et_code">Validation Code</string>
+    <string name="frag_reset_pass_et_new_password">New Password</string>
+    <string name="frag_reset_pass_et_confirm_new_password">Confirm New Password</string>
+    <string name="frag_reset_pass_et_change">Change</string>
+    <string name="frag_reset_pass_et_empty_code">Please enter the verification code</string>
+    <string name="frag_reset_pass_et_empty_new_pass">Please enter the new password</string>
+    <string name="frag_reset_pass_et_empty_new_confirm_pass">Please repeat the new password</string>
+    <string name="frag_reset_pass_password_not_match">Passwords are not equal</string>
+    <string name="frag_reset_pass_code_not_valid">Validation Code is not valid</string>
+
+    <!--     fragment_home   -->
+    <string name="frag_home_tl_articles">Articles</string>
+    <string name="frag_home_tl_donations">Donation Requests</string>
+
+    <!--    bottom_navigation   -->
+    <string name="bottom_navigation_item_home">Home</string>
+    <string name="bottom_navigation_item_profile">Profile</string>
+    <string name="bottom_navigation_item_notification">Notification</string>
+    <string name="bottom_navigation_item_more">More</string>
+
+    <!--    fragment_post   -->
+    <string name="fragment_post_et_search_word">Enter search word</string>
+    <string name="fragment_post_sp_category">Category</string>
+
+    <!--    fragment_donation_requests   -->
+
+    <!--    fragment_create_donation    -->
+    <string name="fragment_create_donation_et_name">Name</string>
+    <string name="fragment_create_donation_et_age">Age</string>
+    <string name="fragment_create_donation_et_Num_of_bags">Number of bags</string>
+    <string name="fragment_create_donation_tv_hospital_address">Hospital address</string>
+    <string name="fragment_create_donation_sp_blood_type">Blood Type</string>
+    <string name="fragment_create_donation_sp_gavernorate">Governorate</string>
+    <string name="fragment_create_donation_sp_city">City</string>
+    <string name="fragment_create_donation_et_phone">Phone Number</string>
+    <string name="fragment_create_donation_et_notes">Notes</string>
+    <string name="fragment_create_donation_btn_send">Send</string>
+    <string name="fragment_create_donation_tool_bar">Donation Request</string>
+    <!--    fragment_donation_location      -->
+    <string name="fragment_donation_location_tool_bar">Specify your address</string>
+    <string name="fragment_donation_location_btn_set_location">Choose the location</string>
+    <!--    fragment_profile    -->
+    <string name="fragment_profile_tool_bar">Update Data</string>
+    <string name="fragment_profile_btn_update">Update</string>
+    <!--    fragment_more    -->
+    <string name="fragment_more_tool_bar">More</string>
+    <string name="fragment_more_tv_favorites">Favorites</string>
+    <string name="fragment_more_tv_contact_us">Contact Us</string>
+    <string name="fragment_more_tv_about_us">About Us</string>
+    <string name="fragment_more_tv_app_evaluation">App Evaluation</string>
+    <string name="fragment_more_tv_notification_settings">Notification Settings</string>
+    <string name="fragment_more_tv_logout">Logout</string>
+    <!--    GPS     -->
+    <string name="GPSAlertDialogTitle">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage">GPSAlertDialogMessage</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="cancel">Cancel</string>
+    <!--    fragment_notification   -->
+    <string name="fragment_notification_tool_bar">Notifications</string>
+    <string name="fragment_notification_tv_empty_notifications">There are no notifications now \n Please start saving humanity by donating blood now</string>
+    <string name="fragment_notification_btn_donation">Donation</string>
+    <!--    item_custom_notification    -->
+    <string name="item_custom_notification_tv_title">Caution about your request</string>
+    <!--    fragment_about_app      -->
+    <string name="fragment_about_app_tool_bar">About the app</string>
+    <string name="fragment_about_app_tv_info">Lorem Epsom is a virtual template that is placed in the designs to be presented to the customer to allow him to imagine how to put the texts inside the designs, whether they are printed &#x2026; brochures or flyer designs for example &#x2026; or site models, Upon the client’s initial approval of the design, this text will be removed from the design and the final texts required for the design will be placed and some say that putting experimental texts to the design may cause the viewer to set aside many comments or criticisms for the basic design &#x2026;</string>
+    <!--    fragment_contact_us     -->
+    <string name="fragment_contact_us_tool_bar">Contact us</string>
+    <string name="fragment_contact_us_tv_phone">Phone</string>
+    <string name="fragment_contact_us_tv_phone_number">01006383877</string>
+    <string name="fragment_contact_us_tv_email">E-mail</string>
+    <string name="fragment_contact_us_tv_email_address">mazenanwer47@yahoo.com</string>
+    <string name="fragment_contact_us_et_msg_title">Message Title</string>
+    <string name="fragment_contact_us_et_msg_content">Message Content</string>
+    <!--    fragment_favorites      -->
+    <string name="fragment_favorite_tool_bar">Favorites</string>
+    <!--    fragment_notification_settings  -->
+    <string name="fragment_notification_settings_tool_bar">Notification Settings</string>
+    <string name="fragment_notification_settings_btn_save">Save</string>
+    <string name="fragment_notification_settings_tv_blood_types">Blood Types</string>
+    <string name="fragment_notification_settings_tv_governorates">Governorates</string>
+
+
+
+
+
+
+</resources>

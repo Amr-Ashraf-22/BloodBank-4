@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/user_cycle_bg"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/fragment_login_i_v_logo"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/white_logo" />
+
+    <EditText
+        android:id="@+id/fragment_login_et_phone"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_login_i_v_logo"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/frag_login_et_phone"
+        android:maxLength="11"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/fragment_login_et_password"
+        style="@style/et_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:hint="@string/frag_login_et_password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/fragment_login_et_phone"
+        />
+
+    <TextView
+        android:id="@+id/fragment_login_tv_forget_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/frag_login_tv_forgot_pass"
+        android:focusable="true"
+        style="@style/frag_login_chk_tv_style"/>
+
+    <CheckBox
+        android:id="@+id/fragment_login_c_bx_remember_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:text="@string/frag_login_chk_bx_remember_me"
+        android:button="@drawable/rectangle_chk_box_status"
+        android:layout_alignBaseline="@+id/fragment_login_tv_forget_pass"
+        style="@style/frag_login_chk_tv_style"
+        />
+
+    <Button
+        android:id="@+id/fragment_login_btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_login_et_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/frag_login_btn_login"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        style="@style/btn_confirm"
+        />
+
+
+    <TextView
+        android:id="@+id/fragment_login_tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/frag_login_tv_register"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/_33sdp"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/red_text_color"
+        android:textSize="@dimen/_12ssp"
+        android:background="@color/frag_login_tv_register"
+        android:focusable="true" />
+
+</RelativeLayout>

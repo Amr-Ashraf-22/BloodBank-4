@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+
+            <item>
+                <shape>
+
+
+                    <corners android:radius="@dimen/_50sdp" />
+
+                    <solid android:color="@color/edit_text_bg_color" />
+
+                    <padding android:left="@dimen/_10sdp" android:right="@dimen/_10sdp"
+                        android:top="@dimen/_5sdp" android:bottom="@dimen/_5sdp"/>
+
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:gravity="start|center" android:src="@drawable/register_governorate_city" />
+            </item>
+
+            <item>
+                <bitmap android:gravity="end|center" android:src="@drawable/register_spinner_arow" />
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>
